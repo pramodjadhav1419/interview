@@ -10,8 +10,4 @@ class Index extends \Magento\Framework\view\Element\Template{
     parent::__construct($context);
     $this->_filePath =  $_filePath;
     }
-
-    public function CustomLog($fileName){
-        $filePath = $this->_filePath.$fileName;
-    }
 }
